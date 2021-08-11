@@ -10,11 +10,11 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
 - Compile <br>
 `
 mpicc -lstdc++ -lm -lpthread parallel_acop.cpp
-`
+```
 - Run <br>
 `
 mpirun -n 4 ./a.out rl1889
-`
+```
 ## Running the code (CUDA)
 - Prerequisites 
   - Nvidia CUDA Toolkit
