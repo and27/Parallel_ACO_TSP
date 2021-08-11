@@ -4,8 +4,7 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
 
 ## Running the code (MPI)
 - Prerequisites 
-  - MPI library
-  - g++
+  - MPI library (OpenMPI)
 
 - Compile <br>
 ```
@@ -35,7 +34,7 @@ The instances folder contain several TSP benchmark instances from the TSPLIB ben
 - rat783
 - pr1002
 - rl1889
-- fl3795)
+- fl3795
 
 
 ### If you find this code useful, please consider citing:
