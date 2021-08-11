@@ -17,7 +17,8 @@ mpirun -n 4 ./aco-mpi rl1889
 ```
 ## Running the code (CUDA)
 - Prerequisites 
-  - Nvidia CUDA Toolkit
+  - CUDA-capable GPU.
+  - NVIDIA CUDA Toolkit.
 
 - Compile <br>
 ```
