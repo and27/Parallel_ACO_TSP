@@ -8,20 +8,20 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
   - g++
 
 - Compile <br>
-`
+```
 mpicc -lstdc++ -lm -lpthread parallel_acop.cpp
 ```
 - Run <br>
-`
+```
 mpirun -n 4 ./a.out rl1889
 ```
 ## Running the code (CUDA)
 - Prerequisites 
   - Nvidia CUDA Toolkit
 - Usage (CUDA) <br>
-`
+```
 ./aco-cuda
-`
+```
 
 ## Data
 The instances folder contain several TSP benchmark instances from the TSPLIB benchmark library:
