@@ -4,21 +4,21 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
 
 ## Running the code (MPI)
 - Prerequisites 
-1. MPI library
-2. g++
+  1. MPI library
+  2. g++
 
-- Compile
+- Compile <br>
 `
 mpicc -lstdc++ -lm -lpthread parallel_acop.cpp
 `
-- Run
+- Run <br>
 `
 mpirun -n 4 ./a.out rl1889
 `
 ## Running the code (CUDA)
 - Prerequisites 
-1. Nvidia CUDA Toolkit
-- Usage (CUDA)
+  1. Nvidia CUDA Toolkit
+- Usage (CUDA) <br>
 `
 ./aco-cuda
 `
