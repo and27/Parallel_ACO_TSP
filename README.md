@@ -8,7 +8,7 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
 
 - Compile <br>
 ```
-mpicc -lstdc++ -lm -lpthread parallel_acop.cpp -o aco-mpi
+mpicc -lstdc++ -lm -lpthread mpi_aco.cpp -o aco-mpi
 ```
 - Run <br>
 ```
