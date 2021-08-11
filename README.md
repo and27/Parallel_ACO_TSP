@@ -9,16 +9,21 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
 
 - Compile <br>
 ```
-mpicc -lstdc++ -lm -lpthread parallel_acop.cpp
+mpicc -lstdc++ -lm -lpthread parallel_acop.cpp -o aco-mpi
 ```
 - Run <br>
 ```
-mpirun -n 4 ./a.out rl1889
+mpirun -n 4 ./aco-mpi rl1889
 ```
 ## Running the code (CUDA)
 - Prerequisites 
   - Nvidia CUDA Toolkit
-- Usage (CUDA) <br>
+
+- Compile <br>
+```
+nvcc -arch=sm_80 aco-tsp.cu -o aco-cuda
+```
+- Run
 ```
 ./aco-cuda
 ```
