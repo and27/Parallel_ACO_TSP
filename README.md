@@ -1,22 +1,22 @@
 # Parallel Ant Colony Optimization Using High Performance Computing with CUDA and MPI (2021)
 
-# Running the code
-## Prerequisites (MPI)
+## Running the code
+### Prerequisites (MPI)
 1. MPI library
 2. g++
-## Prerequisites (CUDA)
+### Prerequisites (CUDA)
 1. Nvidia CUDA Toolkit
 
-## Ussage (MPI)
-### Compile
+### Ussage (MPI)
+#### Compile
 `
 mpicc -lstdc++ -lm -lpthread parallel_acop.cpp
 `
-### Run
+#### Run
 `
 mpirun -n 4 ./a.out rl1889
 `
-## Usage (CUDA)
+### Usage (CUDA)
 `
 ./aco-cuda
 `
