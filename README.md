@@ -36,7 +36,7 @@ The instances folder contain several TSP benchmark instances from the TSPLIB ben
 
   ```
   @article{ 
-  author  = {Jorge Banda-Almida, Israel Pineda},
+  author  = {Jorge Banda-Almeida, Israel Pineda},
   title   = {Parallel Ant Colony Optimization Using High Performance Computing with CUDA and MPI},
   year    = {2021},
   }
