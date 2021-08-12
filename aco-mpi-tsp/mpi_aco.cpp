@@ -243,7 +243,7 @@ auto solveTSP(){
   //Keep track of the total execution time 
   auto start = std::chrono::system_clock::now();
 
- for (int iter = 0; iter<10; a++){
+ for (int iter = 0; iter<10; iter++){
   if (world_rank != 0){
 
     // cout << "------------"<<endl;
@@ -256,7 +256,7 @@ auto solveTSP(){
 
    //For each ant select next cities until traverse a complete path
    for (int ant = 0; ant < colony_size; ant++){
-   		(ant_colony[ant].path_index < MAX_NODES){
+   	while(ant_colony[ant].path_index < MAX_NODES){
         ant_colony[ant].next_node = selectNextCity(ant);
 	    //selected cities are stored in tabu list
         ant_colony[ant].tabu[ant_colony[ant].next_node]=1;
