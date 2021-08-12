@@ -5,6 +5,7 @@ Metaheuristics approximate solutions of NP-hard combinatorial optimization probl
 ## Running the code (MPI)
 - Prerequisites 
   - MPI library (OpenMPI)
+  - Anaconda virtual environment with gxx_linux-64, gcc_linux-64 and openmpi packages.
 
 - Compile <br>
 ```
